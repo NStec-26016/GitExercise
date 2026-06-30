@@ -3,9 +3,17 @@
  */
 package numer0n;
 
+import numer0n.factory.service.NumeronManagerFactory;
+import numer0n.service.impl.GameManagerImpl;
+
 public class App {
 
     public static void main(String[] args) {
+    // GameManagerImpl gm =NumeronManagerFactory.create();
+
+        GameManagerImpl gm = new GameManagerImpl() ;
+            gm.start();
+        
+        };
         // ゲームを開始
     }
-}
