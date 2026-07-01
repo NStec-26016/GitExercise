@@ -9,9 +9,9 @@ import numer0n.service.GameManager;
 public class App {
 
     public static void main(String[] args) {
-        
-        GameManager gamemanager = GameManagerFactory.create();
-        gamemanager.start();
+
+        GameManager gameManager = GameManagerFactory.create();
+        gameManager.start();
 
         // ゲームを開始
     }
